@@ -4,7 +4,7 @@ Pre-requisites
 1. Install GIT (http://git-scm.com/)
 2. Create directory where to keep local copy of your project
 3. Sync down the code.
-        $> git clone https://github.com/jonolo6/StringCalculator.git
+	$> git clone https://github.com/jonolo6/StringCalculator.git
 4. Import the project into your IDE
 5. Install an Automatic test runner (TBD) so you don't have to run the unit tests manually all the time.
 	- http://infinitest.github.com/ or http://junitmax.com/
@@ -24,8 +24,7 @@ Follow the TDD flow below to the best of your ability when working on this proje
 2. Write code to make the test pass
 3. Refactor the code.
 
-The idea of the exercise is to do some deliberate practice, and improve your Refactoring skills. The idea is not to re-write the code from scratch, but rather to practice taking small steps, running the tests often, and incrementally improving the design.
-
+The idea of the exercise is to do some deliberate practice, and improve your Refactoring skills. The idea is to re-write code from scratch and practice taking small steps, running the tests often, and incrementally improving the design.
 
 Before you start
 =================
@@ -33,6 +32,13 @@ Before you start
     Try not to read ahead.
     Do one task at a time. The trick is to learn to work incrementally.
     Make sure you only test for correct inputs. there is no need to test for invalid inputs for this kata
+	
+Tips: 
+
+* Let the IDEA do the work for you - creating tests (CMD - Shift - T in IntelliJ for instance)
+* Refactor is the most important step to allow the code to grow well and nicely. 
+	Take the time to refactor both source and test code in the TDD cycle.
+* A Unit test should only test the class - mock all other dependencies using Mockito, etc.
 
 String Calculator
 =================
